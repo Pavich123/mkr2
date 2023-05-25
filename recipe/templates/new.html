@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counts of every category</title>
+</head>
+<body>
+    <h1>Counts of every category</h1>
+
+    <ol>
+    {% for count in counts %}
+        <li>{{ count.name_of_category }}: {{ count.count_of_every }}</li>
+    {% endfor %}
+    <ol>
+</body>
+</html>
